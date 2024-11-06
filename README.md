@@ -10,6 +10,7 @@
 ### 🔧 Technologies & Skills
 
 - **Languages**: JavaScript, Python
+- **Languages im speaking**: english,zap zap zap
 
 ---
 
