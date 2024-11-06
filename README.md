@@ -1,10 +1,20 @@
-# Zetox199✨
-- 18 years old student ✨
-- Dev learning in python and js
-- im coding bots and **chilling** on **discord** 
+# 👋 Hello, I'm Zetox199!
+![Blue Football Club League Badge](https://github.com/user-attachments/assets/e4beb63a-2b5f-4ede-9238-45160877adb2)
 
-<!---
 
-Zetox199-eng/Zetox199-eng is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+**`Passionate Developer & Creative Thinker`**
+
+
+---
+### 🔧 Technologies & Skills
+
+- **Languages**: JavaScript, Python
+
+---
+
+### 📫 Let's Connect
+
+![téléchargement (1)](https://github.com/user-attachments/assets/87772348-1b99-4dca-932c-20f77d8498fc)
+
+- **Discord**: Zetox199#0001 (Hésite pas à m’ajouter pour discuter tech, projets ou même chill en voc)
