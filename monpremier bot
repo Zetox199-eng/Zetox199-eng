@@ -1,0 +1,49 @@
+
+////////////////////////////////////////////////////////////////
+//                                                            //
+// Bot discord par zetox199                                   //
+//                                                            //
+//                            eh salut les internets          //
+//                                                            //
+//                                                            //
+////////////////////////////////////////////////////////////////
+
+const { Client } = require("discord.js");
+
+const bot = new Client({
+  intents: 53608447,
+});
+
+const prefix = "+";
+
+bot.once("ready", () => {
+  console.log("jé souis conéctew");
+});
+
+bot.on("messageCreate", (message) => {
+  if (message.author.bot || !message.content.startsWith(prefix)) return; // code pour le prefix +
+
+  const args = message.content.slice(prefix.length).trim().split(/ +/);
+  const command = args.shift().toLowerCase();
+  console.log("Args:", args);
+
+  if (command === "salut") { /// test +salut 
+    message.reply("salut mon shab");  /// le bot répond salut mon shab 
+  } else if (command === "help") { 
+    message.reply(  
+      "**Commandes disponibles :**\n" +
+        `- \`${prefix}salut\` : Le bot te salue.\n` +
+        `- \`${prefix}help\` : Liste des commandes disponibles.`
+    );
+  } else {
+    message.reply(
+      "Commande inconnue ! Tape `+help` pour voir la liste des commandes."
+    );
+  }
+});
+
+bot.on("messageCreate", (message) => {
+  if (message.content === "yo") {
+    message.reply("salut");
+  }
+});
